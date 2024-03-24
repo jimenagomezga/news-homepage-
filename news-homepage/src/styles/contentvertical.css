@@ -1,0 +1,23 @@
+.Container {
+    background: #000;
+    height: 512px;
+    width: 350px;
+    padding: 25px;
+}
+
+.Container h1 {
+    color: rgb(243, 158, 11);
+}
+
+.Container h2 {
+    color: white;
+}
+
+.Container h2:hover {
+    color: rgb(243, 158, 11);
+    cursor: pointer;
+}
+
+.Container p {
+    color: white;
+}
