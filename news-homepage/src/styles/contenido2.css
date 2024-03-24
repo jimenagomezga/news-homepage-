@@ -21,19 +21,24 @@
     width: 210px;
     height: 115px;
     margin-left: 25px;
+    margin-right: 52px;
     display: flex;
     flex-direction: column;
 }
 
 .container_text h1 {
-    color: rgb(128, 124, 124);
+    color: rgb(211 211 211);
     margin-top: 0px;
     font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .container_text h2 {
     margin-top: 0px;
     font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .container_text h2:hover {
@@ -46,4 +51,5 @@
     margin-top: 0px;
     font-size: 15px;
     line-height: 165%;
+    color: rgb(140, 138, 138);
 }
