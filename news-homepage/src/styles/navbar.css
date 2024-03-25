@@ -22,3 +22,22 @@ li:hover {
     color: rgb(255, 64, 0);
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+
+    .navbar {
+        margin: 10px 0 0 10px
+    }
+
+    .nav {
+        background: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        padding: auto;
+    }
+
+}

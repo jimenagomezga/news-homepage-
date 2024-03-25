@@ -9,4 +9,23 @@
     width: 730px;
     height: 304px;
     margin-right: 30px;
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .container1 {
+
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .container1 img {
+        /* width: 730px;
+        height: 304px;
+        margin-right: 30px; */
+
+        background-size: cover;
+    }
+
 }
