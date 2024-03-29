@@ -1,13 +1,18 @@
 .container {
-    width: 1158px;
+    /* width: 1158px;
     height: 127px;
-    margin: 70px 140px 130px 140px;
+    margin: 70px 140px 130px 140px; */
+    margin: 70px 0px 70px 0px;
 }
 
 
 .container_block {
+    /* display: flex;
+    justify-content: space-between; */
     display: flex;
-    justify-content: space-between;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -52,4 +57,32 @@
     font-size: 15px;
     line-height: 165%;
     color: rgb(140, 138, 138);
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .container {
+        display: flex;
+        padding: 20px;
+        margin-top: 12px;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+
+    .container_block {
+
+        background: #ffff;
+    }
+
+    .block_unit {
+        background: blue;
+    }
+
+    .container_text {
+
+        margin-right: 0px;
+        height: auto;
+    }
 }

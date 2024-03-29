@@ -30,10 +30,11 @@ li:hover {
     }
 
     .nav {
-        background: blue;
+        /* background: blue;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
+        display: none;
     }
 
     li {

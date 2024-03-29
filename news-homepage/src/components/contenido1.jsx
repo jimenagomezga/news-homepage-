@@ -5,7 +5,7 @@ import '.././styles/contenido1.css';
 export const Contenido1 = () => {
     return (
         <div>
-            <img src={Banner} alt="banner" />
+            <img className="banner" src={Banner} alt="banner" />
             <div className="container2">
                 <h1>The Bright Future of Web 3.0?</h1>
                 <div className="container3">
