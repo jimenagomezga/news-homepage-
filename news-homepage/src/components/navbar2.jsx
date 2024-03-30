@@ -1,13 +1,14 @@
 import React from 'react'
-import '.././styles/navbar.css';
+import '.././styles/navbar2.css';
 import Logo from '../images/logo.svg';
-// import Menu from '../images/more.png';
 
-export const Navbar = () => {
+
+export const Navbar2 = () => {
     return (
-        <div className="navbar">
-            <img src={Logo} alt="logo" />
-            <nav>
+        <div>
+
+            <header>
+                <img src={Logo} alt="logoimg" class="logo" />
                 <input type="checkbox" name="" id="btn-menu" class="custom-checkbox" />
                 <label for="btn-menu" class="label-burger">
                     <div class="container-burger">
@@ -16,14 +17,15 @@ export const Navbar = () => {
                         <div class="linea linea-low"></div>
                     </div>
                 </label>
-                <ul className="nav">
-                    <li>Home</li>
-                    <li>New</li>
-                    <li>Popula</li>
-                    <li>Trending</li>
-                    <li>Categories</li>
-                </ul>
-            </nav>
+                <nav>
+                    <a href="#contenedor-2">Home</a>
+                    <a href="#contenedor-3">New</a>
+                    <a href="#contenedor-4">Popular</a>
+                    <a href="#contenedor-5">Trending</a>
+                    <a href="#contenedor-6">Categories</a>
+                </nav>
+            </header>
+
         </div>
     )
 }
